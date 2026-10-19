@@ -14,7 +14,8 @@ It maps the Coalition for Health AI (CHAI) governance framework — four domains
 
 | Folder | What it is | Status |
 | --- | --- | --- |
-| `crosswalk/` | CHAI domains × instruments, with a per-cell verification record | element level (8 rows); control level in progress |
+| `crosswalk/` | CHAI's 40 baseline controls × instruments, with a per-cell verification record | control level (40 rows); NIST and ISO columns unverified |
+| `sources/` | CHAI control IDs with the author's paraphrase and the source URL | current |
 | `SOURCES.md` | Every instrument cited, with access type and the date it was last checked | current |
 | `docs/sources-to-acquire.md` | What still has to be obtained, and what each one unblocks | current |
 | `readiness-assessment/` | RUAIH readiness questionnaire and scorer | planned |
@@ -24,16 +25,20 @@ It maps the Coalition for Health AI (CHAI) governance framework — four domains
 
 ## What it can do today
 
-The crosswalk is at element level: eight rows, one per CHAI domain or subdomain. That is enough to see which instruments bear on each part of a governance program and to check whether the evidence artifact for each exists. It is not enough to score a program or prepare for a survey. Control-level rows arrive once the CHAI playbook controls are loaded (see `docs/sources-to-acquire.md`).
+The crosswalk is at control level: 40 rows, one per CHAI baseline operational control, each mapped to the RUAIH guidance elements, URAC's evaluation areas, NIST AI RMF subcategories, ISO/IEC 42001 clauses, Texas statute, HIPAA, and a proposed evidence artifact. That is enough to build an evidence list and find the gaps in a program. It is not yet enough to claim conformance to anything: the NIST and ISO columns are unverified and the certification column is empty.
 
-To use it now: open `crosswalk/crosswalk.csv`, drop the columns for instruments that don't apply to you, and for each row mark whether the evidence artifact exists, exists but is stale, or doesn't exist. The row with the most gaps is the first remediation sprint.
+To use it now: open `crosswalk/crosswalk.csv`, drop the columns for instruments that don't apply to you, and for each of the 40 rows mark whether the evidence artifact exists, exists but is stale, or doesn't exist. Roll up by CHAI domain; the domain with the most gaps is the first remediation sprint.
 
 ## What it is not yet
 
-- Not control-level. Eight rows, not sixty.
+- Not tiered. CHAI ranks its controls primary/secondary/tertiary by consensus; that tier is not yet in the file.
 - Not a map to the RUAIH *certification*. The `ruaih_guidance_2025` column is verified against the Sept 2025 guidance (seven elements). The `ruaih_certification` column is empty until the Joint Commission certification standards are obtained; the two documents may not share a structure.
 - Not verified end to end. `crosswalk/verification.csv` records, per cell, whether the mapping was checked against primary text, a secondary summary, or not at all. Read it before relying on any cell.
 - Not legal or regulatory advice, and not endorsed by Joint Commission, CHAI, URAC, NIST, ISO, FDA, or the State of Texas.
+
+## License note on CHAI material
+
+CHAI's playbooks are CC BY-NC-ND 4.0. This repo cites control IDs as facts and paraphrases each control in the author's words; it does not reproduce CHAI's text. If you use the playbooks themselves commercially, check CHAI's terms.
 
 ## Verification discipline
 

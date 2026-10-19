@@ -1,6 +1,9 @@
 # Changelog
 
 ## Unreleased
+- Crosswalk expanded from 8 domain rows to 40 control rows using CHAI's baseline operational controls (governance.chai.org/introduction, read 2026-10-19); `sources/chai-baseline-controls.csv` added with paraphrased controls and attribution
+- `hipaa_nprm` column renamed `hipaa`; cells now cite the current rule where it applies and label NPRM items as proposed
+- README: CC BY-NC-ND note on CHAI material
 - Corrected: removed the claim that SB 1188 prohibits training AI on patient data; §183.005 imposes only license scope, no other legal bar, TMB-standard review of AI-created records, and patient disclosure
 - Corrected: URAC column now uses URAC's seven published evaluation areas instead of invented names; full standards noted as paid
 - Corrected: CHAI numbering aligned to CHAI's structure (domains 1–3, subdomains 4.1–4.5) instead of a flat eight
