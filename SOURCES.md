@@ -11,7 +11,7 @@ Every cell in `crosswalk/crosswalk.csv` is traced to one of these in `crosswalk/
 | --- | --- | --- | --- | --- | --- |
 | S1 | AI Governance Playbooks — introduction page listing all 40 baseline operational controls (4 domains; domain 4 has subdomains 4.1–4.5). Licensed CC BY-NC-ND 4.0: control IDs are cited as fact, control text is paraphrased, nothing is reproduced | Coalition for Health AI | Public (HTML; PDFs behind registration) | https://governance.chai.org/introduction | 2026-10-19 |
 | S2 | Responsible Use of AI in Healthcare (RUAIH) guidance, Sept 2025 — seven elements | Joint Commission and CHAI | Public PDF | https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2 | 2026-10-10 |
-| S3 | Responsible Use of AI in Healthcare certification standards, launched June 1, 2026 | Joint Commission | Not yet obtained | https://www.jointcommission.org/en-us/certification/responsible-use-of-ai-in-healthcare | — |
+| S3 | Responsible Use of AI in Healthcare certification standards, launched June 1, 2026 | Joint Commission | Paid: E-dition single-user license, SKU ERUHD, $650 list; not yet purchased | https://www.jointcommission.org/en-us/certification/responsible-use-of-ai-in-healthcare | — |
 | S4 | Health Care AI Accreditation — public overview (seven evaluation areas) | URAC | Overview public; full standards paid | https://www.urac.org/accreditation-cert/healthcareai/ | 2026-10-10 |
 | S5 | AI Risk Management Framework 1.0 | NIST | Public | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf | — |
 | S6 | ISO/IEC 42001:2023 | ISO/IEC | Paid | https://www.iso.org/standard/42001 | — |
