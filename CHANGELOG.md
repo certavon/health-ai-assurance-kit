@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Repository transferred to the certavon GitHub organization (2026-10-19); CITATION updated
 - Crosswalk expanded from 8 domain rows to 40 control rows using CHAI's baseline operational controls (governance.chai.org/introduction, read 2026-10-19); `sources/chai-baseline-controls.csv` added with paraphrased controls and attribution
 - `hipaa_nprm` column renamed `hipaa`; cells now cite the current rule where it applies and label NPRM items as proposed
 - README: CC BY-NC-ND note on CHAI material
