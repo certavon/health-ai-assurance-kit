@@ -8,7 +8,7 @@ Columns:
 | --- | --- |
 | `chai_control_id`, `chai_domain`, `chai_control` | CHAI's ID and domain, with the control paraphrased by the author (S1; CHAI's own text is CC BY-NC-ND and not reproduced) |
 | `ruaih_guidance_2025` | Element(s) of the seven-element Sept 2025 guidance (S2) |
-| `ruaih_certification` | Empty until the June 2026 certification standards are obtained (S3) |
+| `ruaih_certification` | Standard and EP identifiers from the certification manual, final draft 2026-05-29 (S3); `No direct EP; nearest …` where the control has no EP of its own |
 | `urac_health_ai` | URAC's seven public evaluation areas (S4) |
 | `nist_ai_rmf` | Subcategory IDs (S5) |
 | `iso_42001` | Clause and Annex A control references (S6) |
@@ -21,10 +21,17 @@ Source IDs are defined in `../SOURCES.md`. `verification.csv` has one line per c
 ## Open items before v0.2
 
 - [x] Expand from 8 domain rows to 40 control rows (CHAI baseline controls, Oct 2026)
-- [ ] Obtain the Joint Commission certification standards; fill `ruaih_certification`
+- [x] Joint Commission certification manual obtained (2026-10-19); `ruaih_certification` filled at EP level
+- [ ] Re-check against the published manual once Joint Commission issues it in E-dition (the mapped copy is the May 29, 2026 final draft)
 - [ ] Check the NIST column against AI RMF 1.0 subcategory text
 - [ ] Purchase ISO/IEC 42001 and check the ISO column
 - [ ] Read the HIPAA NPRM text; move NPRM cells to primary
 - [ ] Add CHAI's primary/secondary/tertiary control tier once the per-domain playbooks are read
 - [ ] Confirm Texas Medical Board standards referenced in §183.005(a)(3) exist in final form
 - [ ] Decide on a separate FDA PCCP/TPLC overlay for manufacturers
+
+## Gaps in both directions (as of 2026-10-19)
+
+Certification EPs with no CHAI baseline control: RUAIH.03.01.01 EP3 (policy review by legal, ethics, IT, cybersecurity, operational and clinical leaders); RUAIH.03.01.01 EP4 (alignment with existing policies); RUAIH.04.01.01 EP4 (pilot decision); RUAIH.05.01.01 EP3 (mitigation strategies).
+
+CHAI controls with no EP of their own: 4.2.5 (AI system impact assessment), 4.3.1 (data acquisition register), 4.3.5 (data preparation SOP). Each is mapped to its nearest EP and labeled.
