@@ -18,5 +18,10 @@ Every cell in `crosswalk/crosswalk.csv` is traced to one of these in `crosswalk/
 | S7 | Texas Health & Safety Code §183.005 (added by SB 1188, effective Sept 1, 2025) | State of Texas | Public | https://law.justia.com/codes/texas/health-and-safety-code/title-2/subtitle-i/chapter-183/section-183-005/ | 2026-10-10 |
 | S8 | Texas SB 1188 (other sections) and HB 149 (TRAIGA, effective Jan 1, 2026) — law-firm summaries | Various | Public | https://www.goodwinlaw.com/en/insights/publications/2025/08/alerts-otherindustries-hltc-new-texas-law-regulates-use ; https://clunic.com/regulations/texas-ai-law | 2026-10-10 |
 | S9 | HIPAA Security Rule NPRM, 90 FR 898 (Jan 6, 2025) — summaries | HHS OCR | Public | https://www.federalregister.gov/d/2024-30983 | — |
+| S10 | ISO/IEC 42005:2025, AI system impact assessment (catalogue entry) | ISO/IEC | Paid | https://scc-ccn.ca/standardsdb/standards/8188107 | 2026-10-19 |
+| S11 | EU AI Act, Article 27 (fundamental rights impact assessment) | European Union | Public | https://artificialintelligenceact.eu/article/27/ | 2026-10-19 |
+| S12 | AI Omnibus, Regulation (EU) 2026/1744 — application dates, law-firm summaries | Various | Public | https://www.mondaq.com/eu-digital-omnibus-on-ai-enters-into-force/1825722 ; https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ | 2026-10-19 |
+| S13 | 45 CFR 92.210 (Section 1557, patient care decision support tools); compliance date per Health Affairs summary | HHS OCR | Public | https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-C/section-92.210 ; https://www.healthaffairs.org/content/forefront/section-1557-rule-mandates-identification-and-mitigation-discriminatory-clinical | 2026-10-19 |
+| S14 | FDA Clinical Decision Support Software guidance (January 29, 2026) — summary | FDA (via Innolitics) | Public | https://innolitics.com/articles/fda-guidance-clinical-decision-support-software-2026/ | 2026-10-19 |
 
 Clause numbers and standard names are facts and are mapped freely. Text from paid standards is never reproduced here.

@@ -18,6 +18,7 @@ It maps the Coalition for Health AI (CHAI) governance framework — four domains
 | `sources/` | CHAI control IDs and Joint Commission RUAIH standard/EP IDs, each with the author's paraphrase and source | current |
 | `SOURCES.md` | Every instrument cited, with access type and the date it was last checked | current |
 | `docs/sources-to-acquire.md` | What still has to be obtained, and what each one unblocks | current |
+| `impact-assessment/` | Impact assessment method for one clinical AI system, worked through on a sepsis early-warning model | draft; thresholds are placeholders |
 | `readiness-assessment/` | RUAIH readiness questionnaire and scorer | planned |
 | `vendor-assessment/` | Health-AI vendor due-diligence template | planned |
 | `policy-templates/` | AI policy, intake form, clinician disclosure script, human-review attestation | planned |
